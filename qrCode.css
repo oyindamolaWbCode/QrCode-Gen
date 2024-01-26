@@ -1,0 +1,91 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #3598DB;
+}
+
+.qr-container{
+    width: 450px;
+    height: 500px;
+    margin: 80px auto;
+    background-color: white;
+    box-shadow: 3px 5px 15px #35b7db;
+     border-radius: 10px;
+
+}
+
+.qr-contain{
+    padding: 30px;
+}
+
+p{
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+input[type='text']{
+    width: 97%;
+    height: 28px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.genDown{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+button{
+    padding: 10px 55px;
+    border-radius: 5px;
+    font-family: 'poppins';
+   
+}
+
+a{
+    padding: 10px 55px;
+    border-radius: 5px;
+    font-family: 'poppins';
+    text-decoration: none;
+}
+
+#generate{
+    color:#3598DB;
+    border: 1px solid #3598DB;
+    background-color: white;
+    font-weight: bolder;
+}
+
+#download{
+    color: white;
+    background-color: #3598DB;
+    border: none;
+}
+
+#QRCode{
+    margin: 30px auto;
+    /* text-align: center; */
+    width: 230px;
+    height: 230px;
+    border: 1px solid #3598DB;
+
+}
+
+img{
+    width: 230px;
+    height: 230px;
+    background-position:center;
+    background-size: contain;
+}
